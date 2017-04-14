@@ -36,4 +36,9 @@ public class AService {
         aDao.save(aModel);
         return mapper.map(aModel, A.class);
     }
+    public A deleteA(Long a_id){
+        AModel aModel = aDao.idEquals(a_id).querySingle();
+        aDao.remove(aModel);
+        return mapper.map(aModel,A.class);
+    }
 }
