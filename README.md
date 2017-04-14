@@ -28,3 +28,4 @@ DROP DATABASE IF EXISTS `gaia`; CREATE SCHEMA `gaia` DEFAULT CHARACTER SET utf8 
 - 中心服务器：<http://localhost:8080/gaia/rest/application.wadl>
 
 *注意：更改localhost到你希望查看的服务器IP*
+hahahahahahah
